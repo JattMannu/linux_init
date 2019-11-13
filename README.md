@@ -18,3 +18,9 @@ Find Chrome
 
 ### Chromi
 ```if [[ $(wmctrl -a Chromi) -eq 1 ]]; then chromium; else wmctrl -a Chromi; fi```
+
+
+```
+$(wmctrl -a Chromi) ||  test $? -eq 0 || echo "something bad happened"
+```
+

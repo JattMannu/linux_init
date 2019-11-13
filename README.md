@@ -22,5 +22,6 @@ Find Chrome
 
 ```
 $(wmctrl -a Chromi) ||  test $? -eq 0 || echo "something bad happened"
+$(wmctrl -a Chromi) ||  test $? -eq 0 || chromium
 ```
 

@@ -27,6 +27,13 @@ dconf write /org/mate/desktop/keybindings/$id/action "'sh -c ~/Documents/linux_i
 dconf write /org/mate/desktop/keybindings/$id/binding "'<Alt>t'"
 dconf write /org/mate/desktop/keybindings/$id/name "'Open Tilix'"
 
+
+id=custom3
+dconf reset -f "/org/mate/desktop/keybindings/$id/"
+dconf write /org/mate/desktop/keybindings/$id/action "'sh -c ~/Documents/linux_init/idea.sh'"
+dconf write /org/mate/desktop/keybindings/$id/binding "'<Alt>i'"
+dconf write /org/mate/desktop/keybindings/$id/name "'Open Idea'"
+
 echo "done!"
 
 # https://askubuntu.com/questions/597395/how-to-set-custom-keyboard-shortcuts-from-terminal

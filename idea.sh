@@ -1,0 +1,1 @@
+$(wmctrl -a "- IntelliJ IDEA") ||  test $? -eq 0 || intellij-idea-community

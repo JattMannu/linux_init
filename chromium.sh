@@ -1,0 +1,1 @@
+$(wmctrl -a "- Chromium") ||  test $? -eq 0 || chromium-browser

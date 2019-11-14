@@ -1,0 +1,1 @@
+$(wmctrl -a "Tilix: Default") ||  test $? -eq 0 || tilix

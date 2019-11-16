@@ -25,3 +25,10 @@ $(wmctrl -a Chromi) ||  test $? -eq 0 || echo "something bad happened"
 $(wmctrl -a Chromi) ||  test $? -eq 0 || chromium
 ```
 
+
+
+## Mouse
+
+```
+xinput set-prop "Lite-On Tech Lenovo USB Travel Keyboard with Ultra Nav Mouse" "libinput Scroll Method Enabled" 0, 0, 1
+```

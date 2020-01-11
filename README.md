@@ -32,3 +32,18 @@ $(wmctrl -a Chromi) ||  test $? -eq 0 || chromium
 ```
 xinput set-prop "Lite-On Tech Lenovo USB Travel Keyboard with Ultra Nav Mouse" "libinput Scroll Method Enabled" 0, 0, 1
 ```
+
+
+## SDK Manager
+https://sdkman.io/
+
+```
+curl -s "https://get.sdkman.io" | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+sdk version
+```
+Install Gradle
+```
+sdk install gradle 6.0.1
+```
+

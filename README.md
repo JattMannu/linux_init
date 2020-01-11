@@ -47,3 +47,10 @@ Install Gradle
 sdk install gradle 6.0.1
 ```
 
+Step 3. Configure your system environment
+Linux & MacOS users
+Configure your PATH environment variable to include the bin directory of the unzipped distribution, e.g.:
+
+ ``` 
+ $ export PATH=$PATH:/opt/gradle/gradle-6.0.1/bin
+ ```

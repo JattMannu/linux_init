@@ -63,3 +63,5 @@ youtube.com/watch?v=LwdPrGRBhWA
 ```
 https://github.com/Cat5TV/eviacam
 ```
+location of the file location : /usr/local/bin/eviacam 
+

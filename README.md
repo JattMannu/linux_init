@@ -54,3 +54,10 @@ Configure your PATH environment variable to include the bin directory of the unz
  ``` 
  $ export PATH=$PATH:/opt/gradle/gradle-6.0.1/bin
  ```
+
+
+## Install Move mouse via head
+
+```
+https://github.com/Cat5TV/eviacam
+```

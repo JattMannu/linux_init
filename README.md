@@ -65,3 +65,11 @@ https://github.com/Cat5TV/eviacam
 ```
 location of the file location : /usr/local/bin/eviacam 
 
+
+## Mouse Click
+
+### Left click
+```
+xdotool click 1
+```
+

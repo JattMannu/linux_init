@@ -11,3 +11,10 @@ Note that it is necessary to have "mousekeys" (mouse emulation using the numeric
 dconf write /org/gnome/desktop/a11y/keyboard/mousekeys-enable true
 dconf write /org/gnome/desktop/a11y/keyboard/mousekeys-enable false
 shareimprove this answer
+
+
+
+```
+xmodmap -e "keycode 166 = Pointer_Button1"
+xmodmap -e "keycode 167 = Pointer_Button3"
+```

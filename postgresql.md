@@ -61,5 +61,16 @@ ALTER USER user_1 WITH SUPERUSER;
 User_1 will become the superuser,
 
 
+Remove a user
+``` 
+DROP USER user_1
+\du
+```
+### HELP
+``` man psql ```
+
+
+
+
 
 

@@ -7,3 +7,6 @@ sudo apt-get install -y nano
 sudo apt-get install -y git 
 sudo apt-get install -y git-gui 
 sudo apt-get install -y tilix 
+
+sudo apt-get install -y wmctrl chromium-browser tilix nano git git-gui 
+

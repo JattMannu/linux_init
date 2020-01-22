@@ -4,9 +4,9 @@
 
 ```
 sudo apt-get update
-sudo apt-get install postressql
+sudo apt-get install postgresql
 # Add Install the utilities
-sudo apt-get install postressql-contrib 
+sudo apt-get install postgresql-contrib 
 ```
 
 Location of the postgresql 

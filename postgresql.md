@@ -70,6 +70,8 @@ DROP USER user_1
 ``` man psql ```
 
 
+## Client 
+```pgadmin``` This is the GUI client
 
 
 

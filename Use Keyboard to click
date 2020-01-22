@@ -1,0 +1,13 @@
+The solution is
+
+xmodmap -e "keycode 115 = Pointer_Button2"
+Now my Home key is doing left click and behaves just as if I hit the mouse click and I can keep the key pressed and it highlights (copies) as expected.
+
+I also mapped my End key to be middle click, so I can use it to paste:
+
+xmodmap -e "keycode 110 = Pointer_Button1"
+Note that it is necessary to have "mousekeys" (mouse emulation using the numeric keypad) enabled for this to work. "mousekeys" can be toggled by pressing Shift+NumLock or set explicitly by running:
+
+dconf write /org/gnome/desktop/a11y/keyboard/mousekeys-enable true
+dconf write /org/gnome/desktop/a11y/keyboard/mousekeys-enable false
+shareimprove this answer

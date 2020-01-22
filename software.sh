@@ -1,5 +1,6 @@
 
 sudo apt-get install -y wmctrl
+#Take gif screenshots
 sudo apt-get install -y peek
 sudo apt-get install -y chromium-browser
 sudo apt-get install -y nano

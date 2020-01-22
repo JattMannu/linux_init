@@ -10,7 +10,9 @@ Note that it is necessary to have "mousekeys" (mouse emulation using the numeric
 
 dconf write /org/gnome/desktop/a11y/keyboard/mousekeys-enable true
 dconf write /org/gnome/desktop/a11y/keyboard/mousekeys-enable false
-shareimprove this answer
+
+MATE
+/org/mate/desktop/accessibility/keyboard/mousekeys-enable
 
 
 

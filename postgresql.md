@@ -74,5 +74,5 @@ DROP USER user_1
 ```pgadmin``` This is the GUI client
 
 
-
+ 
 

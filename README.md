@@ -73,3 +73,9 @@ location of the file location : /usr/local/bin/eviacam
 xdotool click 1
 ```
 
+
+# Commands
+
+```
+sudo shutdown -h now
+```

@@ -11,3 +11,5 @@ sudo apt-get install -y dconf-tools
 
 sudo apt-get install -y wmctrl chromium-browser tilix nano git git-gui 
 
+sudo apt-get update
+sudo apt-get upgrade

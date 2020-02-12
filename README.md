@@ -79,3 +79,12 @@ xdotool click 1
 ```
 sudo shutdown -h now
 ```
+
+
+
+# Run on startup 
+https://kvz.io/schedule-tasks-on-linux-using-crontab.html
+
+```
+crontab -e
+```

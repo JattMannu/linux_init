@@ -19,3 +19,16 @@ ls -la
 ```
 The l infront means its a linked file
 lrwxr-xr-x    1 root   wheel         74 Feb 13 09:49 java -> /System/Library/Frameworks/JavaVM.framework/Versions/Current/Commands/java
+
+
+
+## Installing Anaconda
+https://medium.com/ayuth/install-anaconda-on-macos-with-homebrew-c94437d63a37
+
+```
+brew cask install anaconda
+```
+update ~/.zshrc
+```
+export PATH="/usr/local/anaconda3/bin:$PATH"
+```

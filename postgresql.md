@@ -74,5 +74,8 @@ DROP USER user_1
 ```pgadmin``` This is the GUI client
 
 
+ ### Run sql script via going directly into the datbase
+ psql -h localhost -d viz_local  -U admin -W
+ \i /home/mannu/Downloads/resale-flat-prices.sql
  
 

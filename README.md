@@ -26,6 +26,21 @@ $(wmctrl -a Chromi) ||  test $? -eq 0 || chromium
 ```
 
 
+### Making Shortcuts
+github.desktop
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=chromium-browser --app=https://github.com
+Name=GitHub
+Comment=GitHub
+Icon=/snap/skype/23/usr/share/icons/hicolor/256x256/apps/skypeforlinux.png
+
+save file in /usr/share/applications
+then alt+f2 and search
+
 
 ## Mouse
 

@@ -103,3 +103,15 @@ https://kvz.io/schedule-tasks-on-linux-using-crontab.html
 ```
 crontab -e
 ```
+
+
+# Which Linux distro is installed?
+If it is a debian based system, you could do
+```
+cat /etc/*_version
+```
+
+or for a Red Hat or CentOS based system, you could try (this is working on Red Hat Enterprise Linux-7):
+```
+cat /etc/*-release
+```

@@ -12,21 +12,14 @@ setfacl -R -m u:username:rwx myfolder
 https://www.pluralsight.com/blog/it-ops/linux-file-permissions#:~:text=To%20change%20directory%20permissions%20for,only%20read%20permission%20for%20everyone.
 
 #### Permission numbers are:
-0 = ---
-
-1 = --x
-
-2 = -w-
-
-3 = -wx
-
-4 = r-
-
-5 = r-x
-
-6 = rw-
-
-7 = rwx
+- 0 = ---
+- 1 = --x
+- 2 = -w-
+- 3 = -wx
+- 4 = r-
+- 5 = r-x
+- 6 = rw-
+- 7 = rwx
 
 
 

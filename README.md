@@ -91,6 +91,11 @@ xdotool click 1
 ```
 xdotool type --window 58720267  asd
 ```
+### Get selected window
+```
+xdotool selectwindow 
+```
+Then click on the window
 
 # Commands
 

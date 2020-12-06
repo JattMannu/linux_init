@@ -87,7 +87,10 @@ location of the file location : /usr/local/bin/eviacam
 ```
 xdotool click 1
 ```
-
+### Send keys to window
+```
+xdotool type --window 58720267  asd
+```
 
 # Commands
 

@@ -1,4 +1,5 @@
 ### Workaround for unresponsive keyboard on Ubuntu 20.04
+https://youtrack.jetbrains.com/issue/IDEA-23472
 
 Restart ibus-daemon to unlock keyboard input (run ibus-daemon -rd). To prevent further locks:
 

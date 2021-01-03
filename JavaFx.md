@@ -8,7 +8,7 @@ java --module-path /home/mannu/Music/javafx-sdk-11.0.2/lib --add-modules javafx.
 1. Download the FX 11 from there
   https://gluonhq.com/products/javafx/
   
-1. Running Java 11
+1. Running Java 11 (Oracle's)
 ```
 ➜ java -version
 openjdk version "11.0.2" 2019-01-15

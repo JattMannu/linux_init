@@ -25,6 +25,12 @@ Java.net
 
 
 #### Notes
-```sdk install java 8.xxxx-open```
-```sdk use java 8.xxxx-open```
-```sdk list java```
+```
+sdk install java 8.xxxx-open
+```
+```
+sdk use java 8.xxxx-open
+```
+```
+sdk list java
+```

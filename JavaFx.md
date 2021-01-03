@@ -22,3 +22,9 @@ Sdk Manager
 Java.net         
                | >>> | 11.0.2       | open    | installed  | 11.0.2-open   
 ```
+
+
+#### Notes
+```sdk install java 8.xxxx-open```
+```sdk use java 8.xxxx-open```
+```sdk list java```

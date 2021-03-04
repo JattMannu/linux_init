@@ -123,3 +123,15 @@ or for a Red Hat or CentOS based system, you could try (this is working on Red H
 ```
 cat /etc/*-release
 ```
+
+
+# Uninstall a apt-get package
+
+```
+dpkg --list
+sudo apt-get remove package-name
+sudo apt-get purge package-name
+sudo apt-get autoremove
+```
+
+

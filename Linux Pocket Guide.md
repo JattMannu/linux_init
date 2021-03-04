@@ -40,3 +40,11 @@ who is /usr/bin/who
 
 ```→ type cd```
 cd is a shell builtin
+
+
+
+#### Get files usage 
+ 
+```
+du -m | awk '$1 > 100' | awk '{print $0}' | sort -n
+```

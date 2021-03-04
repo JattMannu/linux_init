@@ -135,3 +135,11 @@ sudo apt-get autoremove
 ```
 
 
+# Play youtube playlist via terminal
+
+```
+youtube-dl --get-url  PLxTBN7kyPJW1xMTDgkpdw1TP6XV2syDdn | xargs  -n1 mpv --no-vid 
+```
+
+PLxTBN7kyPJW1xMTDgkpdw1TP6XV2syDdn is the playlistId
+

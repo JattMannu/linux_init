@@ -8,6 +8,7 @@ sudo apt-get install -y git
 sudo apt-get install -y git-gui 
 sudo apt-get install -y tilix 
 sudo apt-get install -y dconf-tools
+sudo apt-get install -y python-pip
 
 
 

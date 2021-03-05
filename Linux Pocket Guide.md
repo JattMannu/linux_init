@@ -121,19 +121,19 @@ any jobs that are due.
 
 
 ### Action APT command
-Search for a package that meets your needs ```apt-file search package_name```
-Check if a package is installed ```dpkg -s package_name```
-Download a package but don’t install it ```apt-get -d package_name```
-Download and install a package ```sudo apt-get install package_name```
-Install a package file ```dpkg -i package_file.deb```
-Learn about a package ```apt-cache show package_name```
-List the contents of a package | ```dpkg -L package_name```
-Discover which package an installed file belongs to | ```dpkg -S /path/to/file```
-Update an installed package ```sudo apt-get upgrade package_name```
-Remove an installed package ```sudo apt-get remove package_name```
-List all packages installed on the system ```dpkg -l```
-Check for updates for all packages on the system ```sudo apt-get -u upgrade```
-Update all packages on the system (to include kernel packages, replace upgrade by dist-upgrade) ```sudo apt-get upgrade```
+1. Search for a package that meets your needs ```apt-file search package_name```
+1. Check if a package is installed ```dpkg -s package_name```
+1. Download a package but don’t install it ```apt-get -d package_name```
+1. Download and install a package ```sudo apt-get install package_name```
+1. Install a package file ```dpkg -i package_file.deb```
+1. Learn about a package ```apt-cache show package_name```
+1. List the contents of a package | ```dpkg -L package_name```
+1. Discover which package an installed file belongs to | ```dpkg -S /path/to/file```
+1. Update an installed package ```sudo apt-get upgrade package_name```
+1. Remove an installed package ```sudo apt-get remove package_name```
+1. List all packages installed on the system ```dpkg -l```
+1. Check for updates for all packages on the system ```sudo apt-get -u upgrade```
+1. Update all packages on the system (to include kernel packages, replace upgrade by dist-upgrade) ```sudo apt-get upgrade```
 
 
 

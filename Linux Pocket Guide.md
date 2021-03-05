@@ -94,19 +94,19 @@ directory (/var/spool/cron). Once a minute, a Linux process
 called cron wakes up, checks your crontab file, and executes
 any jobs that are due.
 ```
-→ crontab -e
+→ crontab -e Edit your crontab file in your default editor ($VISUAL).
 ```
-Edit your crontab file in your default editor ($VISUAL).
+
 ```
-→ crontab -l
+→ crontab -l Print your crontab file on standard output.
 ```
-Print your crontab file on standard output.
+
 ```
-→ crontab -r
+→ crontab -r Delete your crontab file.
 ```
-Delete your crontab file.
+
 ```
-→ crontab myfile
+→ crontab myfile Install the file myfile as your crontab file.
 ```
-Install the file myfile as your crontab file.
+
 

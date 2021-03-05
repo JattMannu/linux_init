@@ -48,3 +48,30 @@ cd is a shell builtin
 ```
 du -m | awk '$1 > 100' | awk '{print $0}' | sort -n
 ```
+
+#### flock 
+
+Do you ever need to ensure that only one copy of a program
+runs at a time on your computer? For example, if you run auto‐
+matic backups every hour using a command like rsync, there’s
+a slight chance that a previous backup might still be running
+when the next backup launches. The flock command solves
+this sort of problem. It prevents a command, such as a backup
+script, from running concurrently with itself. If you try to run
+two copies of the command at once, the second will fail. For
+example, this rsync command, when run with flock, will
+instantly fail if another instance of the same command is
+already running:
+
+```
+→ flock -n /tmp/mylock rsync ...
+```
+
+To see flock in action, open two shell windows and run the fol‐
+lowing command in each shell, one at a time (we’ll use the
+sleep command as a demonstration, which does nothing but
+wait for a given number of seconds):
+
+```
+→ flock -n /tmp/mylock sleep 60
+```

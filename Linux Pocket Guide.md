@@ -118,3 +118,25 @@ any jobs that are due.
 ```passwd``` Change a password.
 ```chfn``` Change a user’s personal information.
 ```chsh``` Change a user’s shell
+
+
+### Action APT command
+Search for a package that meets your needs ```apt-file search package_name```
+Check if a package is installed ```dpkg -s package_name```
+Download a package but don’t install it ```apt-get -d package_name```
+Download and install a package ```sudo apt-get install package_name```
+Install a package file ```dpkg -i package_file.deb```
+Learn about a package ```apt-cache show package_name```
+List the contents of a package | ```dpkg -L package_name```
+Discover which package an installed file belongs to | ```dpkg -S /path/to/file```
+Update an installed package ```sudo apt-get upgrade package_name```
+Remove an installed package ```sudo apt-get remove package_name```
+List all packages installed on the system ```dpkg -l```
+Check for updates for all packages on the system ```sudo apt-get -u upgrade```
+Update all packages on the system (to include kernel packages, replace upgrade by dist-upgrade) ```sudo apt-get upgrade```
+
+
+
+
+
+

@@ -75,3 +75,38 @@ wait for a given number of seconds):
 ```
 → flock -n /tmp/mylock sleep 60
 ```
+
+### Crontab
+
+
+@reboot /home/mannu/Documents/startup.sh
+
+
+crontab
+crontab [options] [file]
+The crontab command, like the at command, schedules jobs
+for specific times. However, crontab is for recurring jobs, such
+as “Run this command at midnight on the second Tuesday of
+each month.” To make this work, you edit and save a file (called
+Scheduling Jobs | 155
+your crontab file), which automatically gets installed in a system
+directory (/var/spool/cron). Once a minute, a Linux process
+called cron wakes up, checks your crontab file, and executes
+any jobs that are due.
+```
+→ crontab -e
+```
+Edit your crontab file in your default editor ($VISUAL).
+```
+→ crontab -l
+```
+Print your crontab file on standard output.
+```
+→ crontab -r
+```
+Delete your crontab file.
+```
+→ crontab myfile
+```
+Install the file myfile as your crontab file.
+

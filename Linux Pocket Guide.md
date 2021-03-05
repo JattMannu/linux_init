@@ -110,3 +110,11 @@ any jobs that are due.
 ```
 
 
+### User Account Management
+
+```useradd``` Create an account.
+```userdel``` Delete an account.
+```usermod``` Modify an account.
+```passwd``` Change a password.
+```chfn``` Change a user’s personal information.
+```chsh``` Change a user’s shell

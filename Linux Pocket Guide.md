@@ -161,3 +161,21 @@ $w <username>
 
 
 
+#### nmon
+Nmon or nigel’s monitor is a tool which displays performance information of the system.
+```
+$ sudo apt-get install nmon
+$ nmon
+```
+
+nmon can dump information related to netwrok, cpu, memory or disk uses.
+
+```
+nmon cpu info (press c)
+nmon network info (press n)
+nman disk info (press d)
+```
+
+
+
+

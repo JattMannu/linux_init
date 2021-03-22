@@ -138,5 +138,26 @@ any jobs that are due.
 
 
 
+### w
+Display who is logged into the system and what process executed by them.
+
+```
+$w
+```
+
+Selection_023
+
+for help
+
+```
+$w -h
+```
+
+for current user
+
+```
+$w <username>
+```
+
 
 

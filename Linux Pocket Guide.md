@@ -177,5 +177,34 @@ nman disk info (press d)
 ```
 
 
+#### ncdu
+A Command utility is a cursor based version of ‘du’,  this command is used to analyze disk space occupied by various directories.
 
+```
+$apt-get install ncdu
+$ncdu /
+```
+
+
+### slurm
+A command line utility used for command based network interface bandwidth monitoring, it will display ascii based graphic.
+
+```
+$ apt-get install slurm
+Examples:
+
+$ slurm -i <interface>
+$ slurm -i eth1
+Selection_009
+```
+
+options
+
+Press l to display lx/tx led.
+
+press c to switch to classic mode.
+
+press r to refresh screen.
+
+press q to quit.
 

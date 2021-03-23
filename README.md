@@ -62,6 +62,11 @@ Install Gradle
 sdk install gradle 6.0.1
 ```
 
+Install Custom java 
+```
+sdk install java java8u40 /home/mannu/.jdks/jdk1.8.0_40
+```
+
 Step 3. Configure your system environment
 Linux & MacOS users
 Configure your PATH environment variable to include the bin directory of the unzipped distribution, e.g.:

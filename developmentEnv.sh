@@ -1,5 +1,6 @@
 # Install xfec
 
 # sudo apt-get install xubuntu-desktop
-sudo apt-get install xfce4
+sudo apt update
+sudo apt install xfce4 xfce4-goodies
 

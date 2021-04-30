@@ -11,4 +11,4 @@ sudo ufw allow 5005/tcp
 sudo ufw allow 5900/tcp
 
 
-sed 's/java -jar/java -Xdebug -Xrunjdwp:transport=dt_socket,address=8000,server=y,suspend=y -jar/g' /home/structo/bin/current/run.sh 
+sed 's/java -jar/java -Xdebug -Xrunjdwp:transport=dt_socket,address=5005,server=y,suspend=y -jar/g' /home/structo/bin/current/run.sh 

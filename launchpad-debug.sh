@@ -2,7 +2,7 @@
 sudo apt update
 
 # Install VNC
-sudo apt-get install -y x11vnc
+sudo apt-get install -y x11vnc smbclient
 x11vnc -forever -display :0 &
 
 

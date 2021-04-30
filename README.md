@@ -152,3 +152,22 @@ FILL is keyword
 
 PLxTBN7kyPJW1xMTDgkpdw1TP6XV2syDdn is the playlistId
 
+# Automation
+
+Debugging the protocol in general
+ Action: xtruss, xscope, x11vis
+ Window manipulation
+Action: wmutils, window, x11fs, xkill, ..
+Listing: xlsw, lsw, ..
+Debug: xwininfo, xwinfo
+Simulation of interaction
+Server Extensions: xdpyinfo
+Action: xdotool, xdo, keynav
+Extended manipulation
+Action: wmctrl, xtitle, xdotool
+Debug: xprop
+Hotkey daemon
+Action: xbindkeys, speckeysd, sxhkd, triggerhappy, xchainkeys, alttab, devilspie2
+Debug: xev
+Layout manager
+Action: gTile, gridmgr, any combination of the above ..

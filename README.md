@@ -190,3 +190,22 @@ Debug: xev
 Layout manager
 
 ```Action: gTile, gridmgr, any combination of the above ..```
+
+# How to make more tty?  How do I increase the number of TTY consoles?
+
+https://askubuntu.com/questions/1124397/how-do-i-increase-the-number-of-tty-consoles
+
+Before answering your question, I would rather point you to use something like screen or tmux.
+
+But if you insist on using ttys, you can spawn a new one with:
+```
+sudo systemctl start getty@ttyN.service
+```
+with N being a number not already in use.
+
+You could change the default number of ttys started at boot (6) to something else by editing /etc/systemd/logind.conf and uncommenting the first line and change the number 6 to something else like:
+```
+[Login]
+NAutoVTs=7
+```
+Source: https://wiki.archlinux.org/index.php/Getty

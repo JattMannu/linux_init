@@ -26,8 +26,10 @@ sudo snap install pycharm-community --classic
 ### Chapter 4
 #### Automation tool
 sudo apt-get install -y xdotool 
-##### Help for postmessage/Sendkeys etc
+##### Help for postmessage/Sendkeys etc 
+# https://wiki.archlinux.org/index.php/Xephyr
 sudo apt-get install xserver-xephyr -y
+
 
 
 ### Chapter 5 

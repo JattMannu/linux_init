@@ -11,5 +11,4 @@ sudo ufw allow 5005/tcp
 sudo ufw allow 5900/tcp
 
 
-
-java -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005 -jar bin/current/Launchpad.jar -fs -ClientCommsEnable
+sed 's/java -jar/java -Xdebug -Xrunjdwp:transport=dt_socket,address=8000,server=y,suspend=y -jar/g' /home/structo/bin/current/run.sh 

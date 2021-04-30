@@ -28,6 +28,7 @@ sudo snap install pycharm-community --classic
 sudo apt-get install -y xdotool 
 ##### Help for postmessage/Sendkeys etc 
 # https://wiki.archlinux.org/index.php/Xephyr
+# https://wiki.archlinux.org/index.php/Category:English
 sudo apt-get install xserver-xephyr -y
 
 

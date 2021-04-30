@@ -30,6 +30,7 @@ sudo apt-get install -y xdotool
 # https://wiki.archlinux.org/index.php/Xephyr
 # https://wiki.archlinux.org/index.php/Category:English
 # https://wiki.debian.org/FrontPage
+# https://packages.debian.org/buster/
 sudo apt-get install xserver-xephyr -y
 
 

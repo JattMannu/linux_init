@@ -3,6 +3,8 @@ sudo apt update
 
 # Install VNC
 sudo apt-get install -y x11vnc smbclient
+# smbclient //192.168.1.68/sambashare -U samba
+
 x11vnc -forever -display :0 &
 
 

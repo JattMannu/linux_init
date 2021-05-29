@@ -25,3 +25,12 @@ apt install network-manager
 nmcli  -> run CLI commands
 nmtui -> GUI
 ```
+
+
+Search and uninstall Dpkg:
+```
+# To Find all the packages
+dpkg -l | grep network  
+# To uninstall all the packages
+apt remove --purge  wicd-daemon python-wicd wicd-gtk
+```

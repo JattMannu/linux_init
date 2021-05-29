@@ -248,6 +248,9 @@
   <keybind key="W-Tab">
     <action name="Execute"><command>rofi -show window</command></action>
   </keybind>
+ <keybind key="C-A-t">
+    <action name="Execute"><command>x-terminal-emulator</command></action>
+  </keybind>
 
   <keybind key="W-d">
     <action name="ToggleShowDesktop"/>

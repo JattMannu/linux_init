@@ -34,3 +34,16 @@ dpkg -l | grep network
 # To uninstall all the packages
 apt remove --purge  wicd-daemon python-wicd wicd-gtk
 ```
+
+
+Make sure the source.list's is contri and nonfree on
+Install wifi firmware: 
+/etc/apt/sources.list
+```
+deb http://deb.debian.org/debian/ buster main contrib non-free
+deb-src http://deb.debian.org/debian/ buster main contrib non-free
+```
+```
+sudo apt install firmware-iwlwifi 
+```
+

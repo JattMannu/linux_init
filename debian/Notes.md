@@ -47,3 +47,10 @@ deb-src http://deb.debian.org/debian/ buster main contrib non-free
 sudo apt install firmware-iwlwifi 
 ```
 
+External harddisk booting:
+If a bootable Debian Installer image is not available simply copy \EFI\debian\grubx64.efi to \EFI\boot\bootx64.efi using whatever means are available (other operating system, connect the storage device to a different computer, etc.).
+
+As the name implies, installing grub-efi to the removable media path can be useful (or even necessary) for portable Debian installations on removable media.
+
+https://wiki.debian.org/UEFI#Booting_a_UEFI_machine_normally
+

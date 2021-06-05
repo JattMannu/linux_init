@@ -36,6 +36,13 @@
 				</action>
 			</item>
 		</menu>
+		<menu id="root-menu-783713" label="Tools">
+			<item label="Screenshot">
+				<action name="Execute">
+					<execute>flameshot gui</execute>
+				</action>
+			</item>
+		</menu>
 		<menu id="root-menu-6738" label="System">
 			<menu id="root-menu-6738-25835" label="Sound">
 				<item label="Pavu Control">
@@ -45,12 +52,12 @@
 				</item>
 			</menu>
 			<menu id="root-menu-585451" label="Network">
-			<item label="networkmanager-tui">
-				<action name="Execute">
-					<execute>x-terminal-emulator -e nmtui</execute>
-				</action>
-			</item>
-		</menu>
+				<item label="networkmanager-tui">
+					<action name="Execute">
+						<execute>x-terminal-emulator -e nmtui</execute>
+					</action>
+				</item>
+			</menu>
 		</menu>
 		<menu execute="/usr/bin/obamenu" id="applications-menu" label="Applications"/>
 		<separator/>

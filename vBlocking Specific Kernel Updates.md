@@ -42,3 +42,12 @@ You can follow the same method for blocking kernel headers by blocking the linux
 Conclusion
 Congratulations, you should now be able to block any or specific versions of any packages you don’t want to get installed or upgraded on your Debian system.
 
+
+
+
+
+```
+Package: *
+Pin: release *
+Pin-Priority: -1
+```

@@ -209,3 +209,17 @@ You could change the default number of ttys started at boot (6) to something els
 NAutoVTs=7
 ```
 Source: https://wiki.archlinux.org/index.php/Getty
+
+
+
+## Add DNS for wifi to work 
+
+https://forums.debian.net/viewtopic.php?f=30&t=141682
+
+```ping 8.8.8.8``` should work 
+```ping 1.1.1.1 ``` should work
+
+then 
+```
+# tee /etc/resolv.conf <<<"nameserver 1.1.1.1"
+```

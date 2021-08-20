@@ -229,4 +229,5 @@ then
 
 Packages to installe
 ```
-xinit git peek jq git-gui nano xdotool network-manager openbox obconf lxterminal mousepad lightdm pcmanfm tint2 nitrogen gnome-backgrounds mate-backgrounds  ```
+xorg xinit git peek jq git-gui nano xdotool network-manager openbox obconf lxterminal mousepad lightdm pcmanfm tint2 nitrogen gnome-backgrounds mate-backgrounds 
+```

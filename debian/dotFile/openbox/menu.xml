@@ -80,7 +80,7 @@
     </item>
     <item label="Obmenu">
       <action name="Execute">
-        <execute>obmenu</execute>
+        <execute>~/opt/obmenu3/usr/bin/obmenu3</execute>
       </action>
     </item>
     <item label="Reconfigure">

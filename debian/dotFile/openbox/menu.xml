@@ -30,6 +30,22 @@
     <menu id="/Debian"/>
     <separator/>
     <menu id="root-menu-573444" label="Workspaces">
+      <item label="Intellj Community">
+        <action name="Execute">
+          <command>~/opt/idea-IC/bin/idea.sh</command>
+        </action>
+      </item>
+      <separator/>
+      <item label="Launchpad">
+        <action name="Execute">
+          <command>~/opt/idea-IC/bin/idea.sh ~/workspaces/Launchpad/pom.xml</command>
+        </action>
+      </item>
+      <item label="Genesis">
+        <action name="Execute">
+          <command>code ~//workspaces/Genesis</command>
+        </action>
+      </item>
       <item label="theBugger">
         <action name="Execute">
           <execute>code ~/workspaces/react-blog-github/</execute>
@@ -37,6 +53,16 @@
       </item>
     </menu>
     <menu id="root-menu-783713" label="Tools">
+      <item label="Trash">
+        <action name="Execute">
+          <command>pcmanfm /home/mannu/.local/share/Trash/files</command>
+        </action>
+      </item>
+      <item label="Slack App">
+        <action name="Execute">
+          <command>google-chrome --app=https://app.slack.com/client</command>
+        </action>
+      </item>
       <item label="Screenshot">
         <action name="Execute">
           <execute>flameshot gui</execute>

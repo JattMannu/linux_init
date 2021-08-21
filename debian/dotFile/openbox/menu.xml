@@ -1,95 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
-	<menu id="root-menu" label="Openbox 3">
-		<item label="Terminal emulator">
-			<action name="Execute">
-				<execute>x-terminal-emulator</execute>
-			</action>
-		</item>
-		<item label="Thunar">
-			<action name="Execute">
-				<execute>thunar</execute>
-			</action>
-		</item>
-		<item label="Pad">
-			<action name="Execute">
-				<execute>mousepad</execute>
-			</action>
-		</item>
-		<item label="PCmanFM">
-			<action name="Execute">
-				<execute>pcmanfm</execute>
-			</action>
-		</item>
-		<item label="Web browser">
-			<action name="Execute">
-				<execute>x-www-browser</execute>
-			</action>
-		</item>
-		<!-- This requires the presence of the 'openbox-menu' package to work -->
-		<menu id="/Debian"/>
-		<separator/>
-		<menu id="root-menu-573444" label="Workspaces">
-			<item label="theBugger">
-				<action name="Execute">
-					<execute>code ~/workspaces/react-blog-github/</execute>
-				</action>
-			</item>
-		</menu>
-		<menu id="root-menu-783713" label="Tools">
-			<item label="Screenshot">
-				<action name="Execute">
-					<execute>flameshot gui</execute>
-				</action>
-			</item>
-		</menu>
-		<menu id="root-menu-6738" label="System">
-			<menu id="root-menu-6738-25835" label="Sound">
-				<item label="Pavu Control">
-					<action name="Execute">
-						<execute>pavucontrol</execute>
-					</action>
-				</item>
-			</menu>
-			<menu id="root-menu-585451" label="Network">
-				<item label="networkmanager-tui">
-					<action name="Execute">
-						<execute>x-terminal-emulator -e nmtui</execute>
-					</action>
-				</item>
-			</menu>
-		</menu>
-		<menu execute="/usr/bin/obamenu" id="applications-menu" label="Applications"/>
-		<separator/>
-		<item label="ObConf">
-			<action name="Execute">
-				<execute>obconf</execute>
-			</action>
-		</item>
-		<item label="Obmenu">
-			<action name="Execute">
-				<execute>obmenu</execute>
-			</action>
-		</item>
-		<item label="Reconfigure">
-			<action name="Reconfigure"/>
-		</item>
-		<item label="Restart">
-			<action name="Restart"/>
-		</item>
-		<separator/>
-		<item label="Exit">
-			<action name="Exit"/>
-		</item>
-		<item label="Reboot">
-			<action name="Execute">
-				<execute>systemctl reboot</execute>
-			</action>
-		</item>
-		<item label="Power Off">
-			<action name="Execute">
-				<execute>systemctl poweroff</execute>
-			</action>
-		</item>
-	</menu>
+  <menu id="root-menu" label="Openbox 3">
+    <item label="Terminal emulator">
+      <action name="Execute">
+        <execute>x-terminal-emulator</execute>
+      </action>
+    </item>
+    <item label="Thunar">
+      <action name="Execute">
+        <execute>thunar</execute>
+      </action>
+    </item>
+    <item label="Pad">
+      <action name="Execute">
+        <execute>mousepad</execute>
+      </action>
+    </item>
+    <item label="PCmanFM">
+      <action name="Execute">
+        <execute>pcmanfm</execute>
+      </action>
+    </item>
+    <item label="Web browser">
+      <action name="Execute">
+        <execute>x-www-browser</execute>
+      </action>
+    </item>
+    <!-- This requires the presence of the 'openbox-menu' package to work -->
+    <menu id="/Debian"/>
+    <separator/>
+    <menu id="root-menu-573444" label="Workspaces">
+      <item label="theBugger">
+        <action name="Execute">
+          <execute>code ~/workspaces/react-blog-github/</execute>
+        </action>
+      </item>
+    </menu>
+    <menu id="root-menu-783713" label="Tools">
+      <item label="Screenshot">
+        <action name="Execute">
+          <execute>flameshot gui</execute>
+        </action>
+      </item>
+    </menu>
+    <menu id="root-menu-6738" label="System">
+      <menu id="root-menu-1111-1111" label="Display">
+        <item label="arandr">
+          <action name="Execute">
+            <command>arandr</command>
+          </action>
+        </item>
+        <item label="Dublicate Monitor">
+          <action name="Execute">
+            <command>xrandr --output DisplayPort-0 --same-as eDP</command>
+          </action>
+        </item>
+      </menu>
+      <menu id="root-menu-6738-25835" label="Sound">
+        <item label="Pavu Control">
+          <action name="Execute">
+            <execute>pavucontrol</execute>
+          </action>
+        </item>
+      </menu>
+      <menu id="root-menu-585451" label="Network">
+        <item label="networkmanager-tui">
+          <action name="Execute">
+            <execute>x-terminal-emulator -e nmtui</execute>
+          </action>
+        </item>
+      </menu>
+    </menu>
+    <menu execute="/usr/bin/obamenu" id="applications-menu" label="Applications"/>
+    <separator/>
+    <item label="ObConf">
+      <action name="Execute">
+        <execute>obconf</execute>
+      </action>
+    </item>
+    <item label="Obmenu">
+      <action name="Execute">
+        <execute>obmenu</execute>
+      </action>
+    </item>
+    <item label="Reconfigure">
+      <action name="Reconfigure"/>
+    </item>
+    <item label="Restart">
+      <action name="Restart"/>
+    </item>
+    <separator/>
+    <item label="Exit">
+      <action name="Exit"/>
+    </item>
+    <item label="Reboot">
+      <action name="Execute">
+        <execute>systemctl reboot</execute>
+      </action>
+    </item>
+    <item label="Power Off">
+      <action name="Execute">
+        <execute>systemctl poweroff</execute>
+      </action>
+    </item>
+  </menu>
 </openbox_menu>

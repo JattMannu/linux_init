@@ -36,14 +36,37 @@
         </action>
       </item>
       <separator/>
+      <menu id="new_id" label="My Workspace">
+        <item label="Java Spring">
+          <action name="Execute">
+            <command>x-terminal-emulator -e " ~/opt/idea-IC/bin/idea.sh ~/workspaces/workspace/java/spring"</command>
+          </action>
+        </item>
+      </menu>
+      <separator/>
       <item label="Launchpad">
         <action name="Execute">
-          <command>~/opt/idea-IC/bin/idea.sh ~/workspaces/Launchpad/pom.xml</command>
+          <command>x-terminal-emulator -e " ~/opt/idea-IC/bin/idea.sh ~/workspaces/Launchpad/pom.xml"</command>
+        </action>
+      </item>
+      <item label="Structo-Scripts">
+        <action name="Execute">
+          <command>code ~/workspaces/Structo-Scripts</command>
+        </action>
+      </item>
+      <item label="Printer-OS">
+        <action name="Execute">
+          <command>code ~/workspaces/Printer-OS</command>
+        </action>
+      </item>
+      <item label="TucoVelox">
+        <action name="Execute">
+          <command>code ~/workspaces/TucoVelox</command>
         </action>
       </item>
       <item label="Genesis">
         <action name="Execute">
-          <command>code ~//workspaces/Genesis</command>
+          <command>code ~/workspaces/Genesis</command>
         </action>
       </item>
       <item label="theBugger">
@@ -51,11 +74,47 @@
           <execute>code ~/workspaces/react-blog-github/</execute>
         </action>
       </item>
+      <separator/>
+      <item label="GitHub Launchpad">
+        <action name="Execute">
+          <command>google-chrome https://github.com/Structo/Launchpad</command>
+        </action>
+      </item>
+      <item label="Github Genesis">
+        <action name="Execute">
+          <command>google-chrome https://github.com/Structo/Genesis</command>
+        </action>
+      </item>
+      <item label="GitHub Printer-OS">
+        <action name="Execute">
+          <command>google-chrome https://github.com/Structo/Printer-OS</command>
+        </action>
+      </item>
+      <item label="GitHub TucoVelox">
+        <action name="Execute">
+          <command>google-chrome https://github.com/Structo/TucoVelox</command>
+        </action>
+      </item>
+      <item label="GitHub Structo-Scripts">
+        <action name="Execute">
+          <command>google-chrome https://github.com/Structo/Structo-Scripts</command>
+        </action>
+      </item>
     </menu>
     <menu id="root-menu-783713" label="Tools">
-      <item label="Trash">
+      <item label="VirtualBox">
         <action name="Execute">
-          <command>pcmanfm /home/mannu/.local/share/Trash/files</command>
+          <command>VirtualBox</command>
+        </action>
+      </item>
+      <item label="Postman">
+        <action name="Execute">
+          <command>google-chrome --profile-directory=Default --app-id=fhbjgbiflinjbdggehcddcbncdddomop</command>
+        </action>
+      </item>
+      <item label="WhatsApp">
+        <action name="Execute">
+          <command>google-chrome --app=https://web.whatsapp.com/</command>
         </action>
       </item>
       <item label="Slack App">
@@ -68,6 +127,38 @@
           <execute>flameshot gui</execute>
         </action>
       </item>
+      <item label="Calculator">
+        <action name="Execute">
+          <command>galculator</command>
+        </action>
+      </item>
+    </menu>
+    <menu id="goto" label="GoTo">
+      <item label="Root">
+        <action name="Execute">
+          <command>pcmanfm /</command>
+        </action>
+      </item>
+      <item label="Home">
+        <action name="Execute">
+          <command>pcmanfm /home/mannu</command>
+        </action>
+      </item>
+      <item label="Media">
+        <action name="Execute">
+          <command>pcmanfm /media</command>
+        </action>
+      </item>
+      <item label="Workspaces">
+        <action name="Execute">
+          <command>pcmanfm /home/mannu/workspaces</command>
+        </action>
+      </item>
+      <item label="Trash">
+        <action name="Execute">
+          <command>pcmanfm /home/mannu/.local/share/Trash/files</command>
+        </action>
+      </item>
     </menu>
     <menu id="root-menu-6738" label="System">
       <menu id="root-menu-1111-1111" label="Display">
@@ -76,9 +167,29 @@
             <command>arandr</command>
           </action>
         </item>
-        <item label="Dublicate Monitor">
+        <item label="Dublicate DP-1">
+          <action name="Execute">
+            <command>xrandr  --output DP-1 --same-as eDP-1</command>
+          </action>
+        </item>
+        <item label="Dublicate DP-2">
+          <action name="Execute">
+            <command>xrandr  --output DP-2 --same-as eDP-1</command>
+          </action>
+        </item>
+        <item label="Dublicate HDMI-1">
+          <action name="Execute">
+            <command>xrandr  --output HDMI-1 --same-as eDP-1</command>
+          </action>
+        </item>
+        <item label="Dublicate Monitor 0">
           <action name="Execute">
             <command>xrandr --output DisplayPort-0 --same-as eDP</command>
+          </action>
+        </item>
+        <item label="Dublicate Monitor 1">
+          <action name="Execute">
+            <command>xrandr --output DisplayPort-1 --same-as eDP</command>
           </action>
         </item>
       </menu>
@@ -95,7 +206,29 @@
             <execute>x-terminal-emulator -e nmtui</execute>
           </action>
         </item>
+        <item label="MAC Address">
+          <action name="Execute">
+            <command>x-terminal-emulator -e "ip link show &amp;&amp; read"</command>
+          </action>
+        </item>
       </menu>
+      <menu id="new_id" label="Disk">
+        <item label="Show disks">
+          <action name="Execute">
+            <command>x-terminal-emulator -e "sudo fdisk -l &amp;&amp; read"</command>
+          </action>
+        </item>
+        <menu id="mounter_1" label="Mounter" execute="python3 ~/.config/openbox/pipemenu/usb.py"/>
+        <menu id="unmounter" label="UnMounter" execute="python3 ~/.config/openbox/pipemenu/unmounter.py"/>
+      </menu>
+      <menu id="mount_menu_1" label="Date Time" execute="python3 ~/.config/openbox/pipemenu/date-menu.py"/>
+    </menu>
+    <menu id="appendix" label="Appendix">
+      <item label="Most Popular Debian Packages">
+        <action name="Execute">
+          <command>google-chrome --app=https://screenshots.debian.net/packages</command>
+        </action>
+      </item>
     </menu>
     <menu execute="/usr/bin/obamenu" id="applications-menu" label="Applications"/>
     <separator/>

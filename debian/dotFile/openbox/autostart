@@ -1,2 +1,5 @@
 tint2 &
 nitrogen --restore &
+google-chrome --app=https://app.slack.com/client &
+
+# xscreensaver -nosplash &  # Moved to ~/.config/systemd/user/xscreensaver.service

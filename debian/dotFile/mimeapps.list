@@ -1,0 +1,13 @@
+[Added Associations]
+text/plain=mousepad.desktop;
+application/x-xbel=mousepad.desktop;
+image/png=com.uploadedlobster.peek.desktop;
+
+[Default Applications]
+text/html=google-chrome.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
+inode/directory=pcmanfm.desktop
+x-scheme-handler/webcal=google-chrome.desktop

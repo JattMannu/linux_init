@@ -227,7 +227,7 @@ then
 
 ## FAI Packages to installed
 ```
-xorg xinit git peek jq git-gui nano xdotool network-manager openbox obconf lxterminal mousepad lightdm pcmanfm tint2 nitrogen gnome-backgrounds mate-backgrounds pulseaudio alsamixergui  
+xorg xinit git peek jq git-gui nano xdotool network-manager openbox obconf lxterminal mousepad lightdm pcmanfm tint2 nitrogen gnome-backgrounds mate-backgrounds pulseaudio alsamixergui brightnessctl
 ```
 
 

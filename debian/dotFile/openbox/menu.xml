@@ -107,6 +107,21 @@
           <command>VirtualBox</command>
         </action>
       </item>
+      <item label="List adb devices">
+        <action name="Execute">
+          <command>x-terminal-emulator -e "adb devices &amp;&amp; read"</command>
+        </action>
+      </item>
+      <item label="Restart adb-server">
+        <action name="Execute">
+          <command>x-terminal-emulator -e "adb kill-server &amp;&amp; sudo adb start-server"</command>
+        </action>
+      </item>
+      <item label="DynamoDB ap-southeast-1">
+        <action name="Execute">
+          <command>x-terminal-emulator -e "/home/mannu/.sdkman/candidates/java/11.0.11.hs-adpt/bin/java -Djava.library.path=/home/mannu/opt/dynamodb_local_latest/DynamoDBLocal_lib -jar /home/mannu/opt/dynamodb_local_latest/DynamoDBLocal.jar -inMemory -sharedDb || read"</command>
+        </action>
+      </item>
       <item label="Postman">
         <action name="Execute">
           <command>google-chrome --profile-directory=Default --app-id=fhbjgbiflinjbdggehcddcbncdddomop</command>
@@ -141,7 +156,7 @@
       </item>
       <item label="Home">
         <action name="Execute">
-          <command>pcmanfm /home/mannu</command>
+          <command>xdg-open /home/mannu</command>
         </action>
       </item>
       <item label="Media">
@@ -165,6 +180,11 @@
         <item label="arandr">
           <action name="Execute">
             <command>arandr</command>
+          </action>
+        </item>
+        <item label="Brightness MAX ">
+          <action name="Execute">
+            <command>x-terminal-emulator -e "sudo brightnessctl s 255 &amp;&amp; read"</command>
           </action>
         </item>
         <item label="Dublicate DP-1">
@@ -240,6 +260,16 @@
     <item label="Obmenu">
       <action name="Execute">
         <execute>~/opt/obmenu3/usr/bin/obmenu3</execute>
+      </action>
+    </item>
+    <item label="Shortcuts Keys">
+      <action name="Execute">
+        <command>mousepad ~/.config/openbox/rc.xml</command>
+      </action>
+    </item>
+    <item label="Edit Default">
+      <action name="Execute">
+        <command>x-terminal-emulator -e "update-alternatives --all "</command>
       </action>
     </item>
     <item label="Reconfigure">
